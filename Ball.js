@@ -6,7 +6,7 @@ class Ball{
         'density':1.0
     }
     this.body = Bodies.rectangle(320, 100,50,50,options);
-    this.image = loadImage("sprites/polygon.png");
+    this.image = loadImage("polygon.png");
     World.add(world, this.body);
 }
 display(){
